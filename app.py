@@ -20,7 +20,7 @@ def get_db_connection():
 HTML_TEMPLATE = """
 <!doctype html>
 <title>Student Results Lookup</title>
-<h2>Enter your Matric Number to view your EEG 331 result</h2>
+<h2>Enter your Matric Number to view your EEG 335 result</h2>
 <form method="POST">
   <input type="text" name="matric_no" placeholder="Matric Number" required>
   <input type="submit" value="Check Results">
