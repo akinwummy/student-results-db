@@ -28,9 +28,9 @@ HTML_TEMPLATE = """
 {% if result %}
   <h3>Result for {{ result.student_name }} ({{ result.matric_no }})</h3>
   <ul>
-    <li>CA: {{ result.ca }}</li>
-    <li>Exam: {{ result.exam }}</li>
-    <li>Total: {{ result.total }}</li>
+  <li>Lab attendance and report <em>/50</em>: {{ result.ca }}</li>
+  <li>Exam <em>/50</em>: {{ result.exam }}</li>
+  <li>Total <em>/100</em>: {{ result.total }}</li>
   </ul>
 {% elif searched %}
   <p><strong>No results found for Matric Number: {{ matric_no }}</strong></p>
